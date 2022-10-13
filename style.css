@@ -118,23 +118,26 @@ li a:hover {
   height: 30vh;
   margin-top: 35px;
   background-color: #1e3551;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   padding-top: 50px; 
-  position: relative;
+  /* position: relative; */
+}
+.box{
+  margin: 0 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  height: 150px
 }
 .title1{
   background-color: whitesmoke;
-  width: 25%;
-  height: 70%;
-  margin-left: 200px;
   text-align: center;
   padding: 15px;
   font-family: "Poppins", sans-serif;
   color: #1e3551;
   border-radius: 5px;
   box-shadow: 0 0 10px 4px #37BEB0;
-  position: absolute;
 }
 .title1 a{
   text-decoration: none;
@@ -146,12 +149,7 @@ li a:hover {
   color: #37BEB0;
 }
 .title2{
-  position: absolute;
-  left: 536px;
   background-color: whitesmoke;
-  width: 25%;
-  height: 70%;
-  margin-left: 200px;
   text-align: center;
   padding: 15px;
   font-family: "Poppins", sans-serif;
@@ -160,18 +158,13 @@ li a:hover {
   box-shadow: 0 0 10px 4px #37BEB0;
 }
 .title3{
-  position: absolute;
   background-color: whitesmoke;
-  width: 25%;
-  height: 70%;
-  margin-left: 231px;
   text-align: center;
   padding: 15px;
   font-family: "Poppins", sans-serif;
   color: #1e3551;
   border-radius: 5px;
   box-shadow: 0 0 10px 4px #37BEB0;
-  right: 200px;
 
 }
 .title2 a{
