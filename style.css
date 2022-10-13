@@ -115,7 +115,7 @@ li a:hover {
     height: max-content;
 }
 .sec3{
-  height: 30vh;
+  height: 280px;
   margin-top: 35px;
   background-color: #1e3551;
   /* justify-content: center; */
@@ -128,7 +128,7 @@ li a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
-  height: 150px
+  height: 200px
 }
 .title1{
   background-color: whitesmoke;
