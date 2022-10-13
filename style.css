@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 .nav_bar {
+  position: fixed;
+  top: 0;
   width: 100%;
   height: 60px;
   background-color: #1e3551;
