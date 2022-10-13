@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav_bar {
+  width: 100%;
+  height: 60px;
+  background-color: #1e3551;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.logo {
+  width: 150px;
+  height: 40px;
+  margin-left: 200px;
+}
+.menu {
+  float: right;
+  color: whitesmoke;
+  margin-right: 200px;
+  width: fit-content;
+}
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+li a {
+  cursor: pointer;
+}
+li a:hover {
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 2px;
+  color: #1e3551;
+  box-sizing: border-box;
+}
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #1e3551;
+}
+.heading2{
+  width:470px;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: whitesmoke;
+  margin:  20px auto;
+  text-align: center;
+  /* border: 0.5px solid #09534c; */
+  border-radius: 75%;
+  box-shadow: 0 0 15px 15px #37BEB0; 
+  background-color: #37BEB0;
+  margin-bottom: 5px;
+}
+.mid_sec{
+    margin: 15px 200px;
+    position: relative;
+    align-items: center;
+    height: 100px;
+}
+.brace1{
+    font-size: 60px;
+    position: absolute;
+    color: #1e3551;
+}
+.para{
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    left: 30%;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #1e3551;
+}
+.brace2{
+    position: absolute;
+    right: 0px;
+    font-size: 60px;
+    color: #1e3551;
+}
+.sec2{
+    margin: 10px 200px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1e3551;
+    margin-top: 25px;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    color: whitesmoke;
+    background-color: #37BEB0;
+    padding: 7px 10px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #09534c;
+}
+.sec1{
+    height: max-content;
+}
+.sec3{
+  height: 30vh;
+  margin-top: 35px;
+  background-color: #1e3551;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px; 
+  position: relative;
+}
+.title1{
+  background-color: whitesmoke;
+  width: 20%;
+  height: 70%;
+  margin-left: 200px;
+  text-align: center;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #1e3551;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 4px #37BEB0;
+  position: absolute;
+}
+.title1 a{
+  text-decoration: none;
+  color: #1e3551;
+  cursor: auto;
+}
+.h2{
+  font-size: 24px;
+  color: #37BEB0;
+}
+.title2{
+  position: absolute;
+  left: 400px;
+  background-color: whitesmoke;
+  width: 20%;
+  height: 70%;
+  margin-left: 200px;
+  text-align: center;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #1e3551;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 4px #37BEB0;
+}
+.title3{
+  position: absolute;
+  background-color: whitesmoke;
+  width: 20%;
+  height: 70%;
+  margin-left: 200px;
+  text-align: center;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #1e3551;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 4px #37BEB0;
+  right: 200px;
+
+}
+.title2 a{
+  text-decoration: none;
+  color: #1e3551;
+  cursor: auto;
+}
+.title3 a{
+  text-decoration: none;
+  color: #1e3551;
+  cursor: auto;
+}
+#apply{
+  background-color: #37BEB0;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  padding: 4px 10px;
+}
+.title1:hover{
+  margin-top: -25px;
+}
+.title2:hover{
+  margin-top: -25px;
+}
+.title3:hover{
+  margin-top: -25px;
+}
+.title1 a h4:hover{
+  color:#37BEB0
+}
+.title2 a h4:hover{
+  color:#37BEB0
+}
+.title3 a h4:hover{
+  color:#37BEB0
+}
+.chat-bot{
+  position: fixed;
+  bottom: 40px;
+  right:10px;
+  z-index: 1;
+  width: 300px;
+  height: 50px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+.chat-bot a{
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #37BEB0;
+  padding: 5px 10px;
+}
+.chat-bot a img{
+  width: 25px;
+  height: 25px;
+  padding-top: 9px;
+}
