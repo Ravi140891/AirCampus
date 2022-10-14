@@ -145,6 +145,7 @@ li a:hover {
   color: #1e3551;
   border-radius: .5rem;
   box-shadow: 0 0 1rem .4rem #37BEB0;
+  transition-duration: 1s;
 }
 .title1 a{
   text-decoration: none;
@@ -163,6 +164,7 @@ li a:hover {
   color: #1e3551;
   border-radius: 5px;
   box-shadow: 0 0 1rem .4rem #37BEB0;
+  transition-duration: 1s;
 }
 .title3{
   background-color: whitesmoke;
@@ -172,7 +174,7 @@ li a:hover {
   color: #1e3551;
   border-radius: .5rem;
   box-shadow: 0 0 1rem .4rem #37BEB0;
-
+  transition-duration: 1s;
 }
 .title2 a{
   text-decoration: none;
