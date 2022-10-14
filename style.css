@@ -242,7 +242,6 @@ h4 {
 .icon{
   color: #37BEB0;
 }
-.icon img{
-  float: left;
-  width: 9rem;
+.fa-whatsapp{
+  font-size: 7rem;
 }
