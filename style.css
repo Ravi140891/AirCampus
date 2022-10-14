@@ -131,11 +131,11 @@ li a:hover {
   /* position: relative; */
 }
 .box{
-  margin: 0 31rem;
+  margin: 0 32rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  height: 200px
+  grid-gap: 4rem;
+  height: 20rem;
 }
 .title1{
   background-color: whitesmoke;
@@ -238,4 +238,11 @@ li a:hover {
 }
 h4 {
   font-size: 2.2rem;
+}
+.icon{
+  color: #37BEB0;
+}
+.icon img{
+  float: left;
+  width: 9rem;
 }
