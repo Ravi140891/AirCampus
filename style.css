@@ -3,33 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62%;
+}
 .nav_bar {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 60px;
+  height: 6rem;
   background-color: #1e3551;
-  padding: 10px;
+  padding: 1rem;
   box-sizing: border-box;
 }
 .logo {
-  width: 150px;
-  height: 40px;
-  margin-left: 200px;
+  width: 15rem;
+  height: 4rem;
+  margin-left: 20rem;
 }
 .menu {
   float: right;
   color: whitesmoke;
-  margin-right: 200px;
+  margin-right: 20rem;
   width: fit-content;
+  font-size: 1.8rem;
 }
 .menu ul li {
   list-style: none;
   display: inline-block;
-  padding: 15px 15px;
+  padding: 1rem 1.5rem;
   box-sizing: border-box;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: .5rem;
+  margin-right: .5rem;
 }
 li a {
   cursor: pointer;
@@ -37,46 +41,47 @@ li a {
 li a:hover {
   border: 1px solid whitesmoke;
   background-color: whitesmoke;
-  border-radius: 20px;
-  padding: 2px;
+  border-radius: 2rem;
+  padding: .2rem;
   color: #1e3551;
   box-sizing: border-box;
 }
 .heading {
   text-align: center;
-  margin-top: 50px;
-  font-family: "Poppins", sans-serif;
-  font-size: 50px;
+  margin-top: 15rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 7rem;
   font-weight: 500;
   color: #1e3551;
 }
 .heading2{
-  width:470px;
+  width:47rem;
   font-family: "Poppins", sans-serif;
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 500;
   color: whitesmoke;
-  margin:  20px auto;
+  margin:  4rem auto;
   text-align: center;
+  border: none;
   /* border: 0.5px solid #09534c; */
   border-radius: 75%;
-  box-shadow: 0 0 15px 15px #37BEB0; 
+  box-shadow: 0 0 1.5rem 1.5rem #37BEB0; 
   background-color: #37BEB0;
-  margin-bottom: 5px;
+  margin-bottom: .5rem;
 }
 .mid_sec{
-    margin: 15px 200px;
+    margin: 6rem 20rem;
     position: relative;
     align-items: center;
-    height: 100px;
+    height: 10rem;
 }
 .brace1{
-    font-size: 60px;
+    font-size: 6rem;
     position: absolute;
     color: #1e3551;
 }
 .para{
-    font-size: 25px;
+    font-size: 2.5rem;
     position: absolute;
     text-align: center;
     left: 35%;
@@ -86,18 +91,18 @@ li a:hover {
 }
 .brace2{
     position: absolute;
-    right: 0px;
-    font-size: 60px;
+    right: 0rem;
+    font-size: 6rem;
     color: #1e3551;
 }
 .sec2{
-    margin: 10px 200px;
+    margin: 1rem 20rem;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #1e3551;
-    margin-top: 25px;
+    margin-top: 2.5rem;
 }
 .btn{
     text-align: center;
@@ -105,8 +110,8 @@ li a:hover {
 .btn button{
     color: whitesmoke;
     background-color: #37BEB0;
-    padding: 7px 10px;
-    font-size: 25px;
+    padding: .7rem 1rem;
+    font-size: 2.5rem;
     border: none;
     cursor: pointer;
 }
@@ -114,15 +119,15 @@ li a:hover {
     background-color: #09534c;
 }
 .sec1{
-    height: max-content;
+    height: 60rem;
 }
 .sec3{
-  height: 280px;
-  margin-top: 35px;
+  height: 28rem;
+  margin-top: 3.5rem;
   background-color: #1e3551;
   /* justify-content: center; */
   /* align-items: center; */
-  padding-top: 50px; 
+  padding-top: 5rem; 
   /* position: relative; */
 }
 .box{
@@ -180,6 +185,7 @@ li a:hover {
   cursor: auto;
 }
 #apply{
+  font-weight: 600;
   background-color: #37BEB0;
   color: whitesmoke;
   border: 1px solid whitesmoke;
@@ -222,6 +228,6 @@ li a:hover {
 }
 .chat-bot a img{
   width: 25px;
-  height: 25px;
-  padding-top: 9px;
+  height: 30px;
+  padding-top: 13px
 }
