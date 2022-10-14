@@ -18,12 +18,12 @@ html {
 .logo {
   width: 15rem;
   height: 4rem;
-  margin-left: 20rem;
+  margin-left: 27rem;
 }
 .menu {
   float: right;
   color: whitesmoke;
-  margin-right: 20rem;
+  margin-right: 27rem;
   width: fit-content;
   font-size: 1.8rem;
 }
@@ -70,7 +70,7 @@ li a:hover {
   margin-bottom: .5rem;
 }
 .mid_sec{
-    margin: 6rem 20rem;
+    margin: 6rem 27rem;
     position: relative;
     align-items: center;
     height: 10rem;
@@ -96,10 +96,10 @@ li a:hover {
     color: #1e3551;
 }
 .sec2{
-    margin: 1rem 20rem;
+    margin: 1rem 27rem;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: #1e3551;
     margin-top: 2.5rem;
@@ -119,19 +119,19 @@ li a:hover {
     background-color: #09534c;
 }
 .sec1{
-    height: 60rem;
+    height: 50rem;
 }
 .sec3{
-  height: 28rem;
-  margin-top: 3.5rem;
+  height: 27rem;
+  margin-top: 3rem;
   background-color: #1e3551;
   /* justify-content: center; */
   /* align-items: center; */
-  padding-top: 5rem; 
+  padding-top: 3.5rem; 
   /* position: relative; */
 }
 .box{
-  margin: 0 200px;
+  margin: 0 31rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
@@ -140,11 +140,11 @@ li a:hover {
 .title1{
   background-color: whitesmoke;
   text-align: center;
-  padding: 15px;
+  padding: 1.5rem;
   font-family: "Poppins", sans-serif;
   color: #1e3551;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 4px #37BEB0;
+  border-radius: .5rem;
+  box-shadow: 0 0 1rem .4rem #37BEB0;
 }
 .title1 a{
   text-decoration: none;
@@ -152,26 +152,26 @@ li a:hover {
   cursor: auto;
 }
 .h2{
-  font-size: 24px;
+  font-size: 3rem;
   color: #37BEB0;
 }
 .title2{
   background-color: whitesmoke;
   text-align: center;
-  padding: 15px;
+  padding: 1.5rem;
   font-family: "Poppins", sans-serif;
   color: #1e3551;
   border-radius: 5px;
-  box-shadow: 0 0 10px 4px #37BEB0;
+  box-shadow: 0 0 1rem .4rem #37BEB0;
 }
 .title3{
   background-color: whitesmoke;
   text-align: center;
-  padding: 15px;
+  padding: 1.5rem;
   font-family: "Poppins", sans-serif;
   color: #1e3551;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 4px #37BEB0;
+  border-radius: .5rem;
+  box-shadow: 0 0 1rem .4rem #37BEB0;
 
 }
 .title2 a{
@@ -189,17 +189,20 @@ li a:hover {
   background-color: #37BEB0;
   color: whitesmoke;
   border: 1px solid whitesmoke;
-  border-radius: 20px;
-  padding: 4px 10px;
+  border-radius: 2rem;
+  padding: .4rem 1rem;
 }
 .title1:hover{
-  margin-top: -25px;
+  margin-top: -2.5rem;
+  margin-bottom: 2.5rem;
 }
 .title2:hover{
-  margin-top: -25px;
+  margin-top: -2.5rem;
+  margin-bottom: 2.5rem;
 }
 .title3:hover{
-  margin-top: -25px;
+  margin-top: -2.5rem;
+  margin-bottom: 2.5rem;
 }
 .title1 a h4:hover{
   color:#37BEB0
@@ -212,22 +215,25 @@ li a:hover {
 }
 .chat-bot{
   position: fixed;
-  bottom: 40px;
-  right:10px;
+  bottom: 3rem;
+  right:0;
   z-index: 1;
-  width: 300px;
-  height: 50px;
-  font-size: 17px;
+  width: 30rem;
+  height: 5rem;
+  font-size: 1.7rem;
   font-family: "Poppins", sans-serif;
 }
 .chat-bot a{
   text-decoration: none;
   color: whitesmoke;
   background-color: #37BEB0;
-  padding: 5px 10px;
+  padding: .5rem 1rem;
 }
 .chat-bot a img{
-  width: 25px;
-  height: 30px;
-  padding-top: 13px
+  width: 2.5rem;
+  height: 3rem;
+  padding-top: 1.3rem;
+}
+h4 {
+  font-size: 2.2rem;
 }
