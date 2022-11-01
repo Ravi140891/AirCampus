@@ -59,12 +59,7 @@ nav{
   border-radius: 20px;
   color: whitesmoke;
 }
-.first_page{
-  max-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 .sec1{
   padding: 3rem 15rem;
 }
@@ -168,7 +163,7 @@ nav{
   justify-content: space-around;
 }
 .content{
-  padding: 1rem;
+  padding: 0 1rem;
 }
 .globe{
   position: absolute;
@@ -200,6 +195,45 @@ nav{
   max-width: 30%;
   margin-right: 3rem;
   align-self: center;
+}
+.placement{
+  padding: 1.5rem 3rem;
+  font-family: "Poppins", sans-serif;
+}
+.placement h2{
+  color: grey;
+  font-size: .9rem;
+}
+.placement h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #37BEB0;
+    margin: 4px 10px;
+}
+.placement p{
+  color: #37beb0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  
+}
+.companies{
+  margin-top: 3rem;
+  padding: 3rem 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pics{
+  max-width: 13.5%;
+  min-width: 12.5%;
+  max-height: max-content;
+  padding: 1rem;
+}
+.pics img{
+  max-width: 100%;
 }
 
 
