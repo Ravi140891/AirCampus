@@ -60,7 +60,7 @@ nav{
   color: whitesmoke;
 }
 .first_page{
-  height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -141,7 +141,7 @@ nav{
   background-color: whitesmoke;
   text-align: center; 
   padding: 1.5rem 2rem;
-  margin: 0 .2rem;
+  margin: 1rem .2rem;
   font-family: "Poppins", sans-serif;
   color: #1e3551;
   border-radius: .5rem;
@@ -180,6 +180,7 @@ nav{
 .second{
   position: relative;
   display: flex;
+  justify-content: space-around;
 }
 .clock{
   position: absolute;
@@ -191,6 +192,7 @@ nav{
 .third{
   position: relative;
   display: flex;
+  justify-content: space-around;
 }
 .checklist{
   position: absolute;
