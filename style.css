@@ -86,7 +86,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 .brace{
   font-size: 4rem;
@@ -98,7 +98,7 @@ nav{
     color: #1e3551;
 }
 .sec1 h3{
-  margin-top: 3rem;
+  margin-top: 2rem;
   text-align: center;
 }
 .btn{
@@ -159,13 +159,14 @@ nav{
 .first{
   position: relative;
   display: flex;
+  justify-content: space-around;
 }
 .content{
   padding: 1rem;
 }
 .globe{
   position: absolute;
-  left: -8%;
+  left: -9%;
   max-width: 30%;
   margin-right: 3rem;
   align-self: center;
