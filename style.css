@@ -219,10 +219,10 @@ nav{
   
 }
 .companies{
-  margin-top: 3rem;
-  padding: 3rem 7rem;
+  margin-top: 2rem;
+  padding: 1rem 7rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -234,6 +234,74 @@ nav{
 }
 .pics img{
   max-width: 100%;
+}
+.placement h4{
+  text-align: center;
+}
+.mentor{
+  padding: 1.5rem 3rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #1e3551;
+}
+.mentor h2{
+  color: grey;
+  font-size: .9rem;
+}
+.mentor h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #37BEB0;
+    margin: 4px 10px;
+}
+.mentor p{
+  color: #37beb0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  
+}
+.gallery{
+  padding: 1rem 3rem;
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+}
+.photo{
+  max-height: 100%;
+  max-width: 100%;
+  align-self: stretch;
+}
+.images{
+  max-width: 12%;
+  margin: 15px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.photo img{
+  max-width: 100%;
+}
+.images h3{
+  background-color: whitesmoke;
+  max-width: max-content;
+  align-self: center;
+  padding: 1rem 0;
+}
+.logo_pic{
+  max-width: 40%;
+  padding: .1rem .5rem;
+  align-self: center;
+  position: absolute;
+  right: -7%;
+  bottom: -7%;
+  background-color: whitesmoke;
+  box-shadow: 0 0 .5rem .1rem grey;
+}
+.logo_pic img{
+  max-width: 90%;
 }
 
 
