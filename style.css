@@ -59,6 +59,12 @@ nav{
   border-radius: 20px;
   color: whitesmoke;
 }
+.first_page{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .sec1{
   padding: 3rem 15rem;
 }
