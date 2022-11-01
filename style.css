@@ -177,7 +177,7 @@ nav{
 }
 .clock{
   position: absolute;
-  left: -9%;
+  left: -7%;
   max-width: 30%;
   margin-right: 3rem;
   align-self: center;
@@ -188,7 +188,7 @@ nav{
 }
 .checklist{
   position: absolute;
-  left: -9%;
+  left: -7%;
   max-width: 30%;
   margin-right: 3rem;
   align-self: center;
